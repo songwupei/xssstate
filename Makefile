@@ -31,7 +31,7 @@ clean:
 dist: clean
 	@echo creating dist tarball
 	@mkdir -p xgetidle-${VERSION}
-	@cp -R LICENSE Makefile README config.mk \
+	@cp -R LICENSE Makefile config.mk \
 		xgetidle.1 arg.h ${SRC} xgetidle-${VERSION}
 	@tar -cf xgetidle-${VERSION}.tar xgetidle-${VERSION}
 	@gzip xgetidle-${VERSION}.tar
