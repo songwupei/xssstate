@@ -44,7 +44,7 @@ main(int argc, char *argv[]) {
 		inseconds = true;
 		break;
 	case 'v':
-		die("sautolock-"VERSION", © 2008-2012 xgetidle engineers"
+		die("xgetidle-"VERSION", © 2008-2012 xgetidle engineers"
 				", see LICENSE for details.\n");
 	default:
 		usage();
