@@ -30,7 +30,7 @@ clean:
 dist: clean
 	@echo creating dist tarball
 	@mkdir -p xssstate-${VERSION}
-	@cp -R LICENSE Makefile config.mk \
+	@cp -R LICENSE README Makefile config.mk xsidle.sh \
 		xssstate.1 arg.h ${SRC} xssstate-${VERSION}
 	@tar -cf xssstate-${VERSION}.tar xssstate-${VERSION}
 	@gzip xssstate-${VERSION}.tar
