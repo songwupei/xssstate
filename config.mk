@@ -1,4 +1,4 @@
-# xgetidle version
+# xssstate version
 VERSION = 1.0
 
 # Customize below to fit your system
