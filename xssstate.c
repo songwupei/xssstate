@@ -88,14 +88,14 @@ main(int argc, char *argv[]) {
 			printf("0\n");
 			break;
 		case ScreenSaverOff:
-			printf("%ld\n", info->til_or_since);
+			printf("%lu\n", info->til_or_since);
 			break;
 		case ScreenSaverDisabled:
 			printf("-1\n");
 			break;
 		}
 	} else if (showidle) {
-		printf("%ld\n", info->idle);
+		printf("%lu\n", info->idle);
 	}
 
 
