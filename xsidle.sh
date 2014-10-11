@@ -8,7 +8,7 @@ then
 	printf "usage: %s cmd\n" "$(basename $0)" 2>&1
 	exit 1
 fi
-cmd="$1"
+cmd="$@"
 
 while true
 do
