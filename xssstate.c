@@ -52,7 +52,7 @@ main(int argc, char *argv[]) {
 		showtill = true;
 		break;
 	case 'v':
-		die("xssstate-"VERSION", © 2008-2012 xssstate engineers"
+		die("xssstate-"VERSION", © 2008-2016 xssstate engineers"
 				", see LICENSE for details.\n");
 	default:
 		usage();
