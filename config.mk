@@ -5,11 +5,12 @@ VERSION = 1.1
 
 # paths
 PREFIX = /usr/local
+LIBDIR = ${PREFIX}/lib
 MANPREFIX = ${PREFIX}/share/man
 
 # includes and libs
 INCS = -I. -I/usr/include
-LIBS = -L/usr/lib -lc -lX11 -lXss
+LIBS = -L${LIBDIR} -lc -lX11 -lXss
 
 # flags
 CPPFLAGS = -DVERSION=\"${VERSION}\"
